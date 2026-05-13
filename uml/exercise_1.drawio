@@ -1,0 +1,59 @@
+<mxfile host="Electron">
+  <diagram name="‫עמוד-1‬" id="se92Jztqq2KlgiiQQvni">
+    <mxGraphModel dx="680" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-7" edge="1" parent="1" source="sHCYhaMT5rfoTutnUvFG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Building a game board" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-8" edge="1" parent="1" source="sHCYhaMT5rfoTutnUvFG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sHCYhaMT5rfoTutnUvFG-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Creating objects within each location in the game will contain the user&#39;s representation and whether it is active." vertex="1">
+          <mxGeometry height="100" width="120" x="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-9" edge="1" parent="1" source="sHCYhaMT5rfoTutnUvFG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Create a queue&#xa;1) Select a column &#xa;2) Check for availability &#xa;3) Enter the first available seat" vertex="1">
+          <mxGeometry height="120" width="120" x="450" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-10" edge="1" parent="1" source="sHCYhaMT5rfoTutnUvFG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Printing a board customized for players" vertex="1">
+          <mxGeometry height="70" width="120" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-13" edge="1" parent="1" source="sHCYhaMT5rfoTutnUvFG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Checking win and loss conditions" vertex="1">
+          <mxGeometry height="70" width="130" x="230" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-14" edge="1" parent="1" source="sHCYhaMT5rfoTutnUvFG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Central loop generator with automation of turns and times" vertex="1">
+          <mxGeometry height="70" width="150" x="450" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sHCYhaMT5rfoTutnUvFG-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Saving and retrieving game state to a file" vertex="1">
+          <mxGeometry height="60" width="180" x="70" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
