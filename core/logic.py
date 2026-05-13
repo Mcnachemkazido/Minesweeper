@@ -1,6 +1,5 @@
 from typing import List ,Dict ,Tuple,Any
-
-NUMBER_PLAYERS = 2
+from config import NUMBER_PLAYERS
 
 
 def check_full_column(game_board: List[List[Dict[str,Any]]] ,column_number: int) -> bool:

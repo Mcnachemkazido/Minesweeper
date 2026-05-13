@@ -1,7 +1,5 @@
 from typing import List ,Dict ,Any
-
-NUMBER_COLUMNS = 7
-NUMBER_LIENS = 6
+from config import NUMBER_LIENS ,NUMBER_COLUMNS
 
 
 

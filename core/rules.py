@@ -1,6 +1,6 @@
 from typing import List ,Dict ,Tuple,Any
+from config import VICTORY_NUMBER
 
-VICTORY_NUMBER = 4
 
 def check_draw(game_board: List[List[Dict[str,Any]]]) -> bool:
     for column in game_board[0]:
