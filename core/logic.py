@@ -18,16 +18,4 @@ def fill_first_empty_space_column(game_board: List[List[Dict[str,Any]]],
 
 
 def switch_turn_between_players(current_player: int) -> int:
-    return (current_player +1) % NUMBER_PLAYERS
-
-
-
-
-
-
-
-
-
-
-
-
+    return (current_player + 1) % NUMBER_PLAYERS

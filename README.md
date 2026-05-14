@@ -1,1 +1,1 @@
-# Minesweeper
+# Game four in a row

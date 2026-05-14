@@ -1,9 +1,14 @@
 NUMBER_COLUMNS = 7
-NUMBER_LIENS = 6
+NUMBER_LINES = 6
+
 NUMBER_PLAYERS = 2
-ONE_PLAYER= 0
-PLAYER_TWO= 1
-QUEUE_TIME = 5
+PLAYER_ONE = 0
+PLAYER_TWO = 1
+COLOR_PLAYER_ONE = '🔵'
+COLOR_PLATER_TWO= '🔴'
+
+
+TURN_TIME = 5
 VICTORY_NUMBER = 4
-STORAGE_PASS= 'storage_manager/game_history.json'
-EXIT_KAY='esc'
+STORAGE_PATH= 'storage_manager/game_history.json'
+EXIT_KEY='esc'
