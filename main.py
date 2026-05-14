@@ -9,7 +9,7 @@ from config import PLAYER_TWO ,TURN_TIME ,EXIT_KEY
 
 def run_game():
     game_type = accept_choice_from_user_new_or_previous_game()
-    if  game_type in get_the_latest_games_situations():
+    if game_type in get_the_latest_games_situations():
         game_board = get_specific_old_game_state(game_type)
     else:
         game_board = create_game_board()
@@ -26,11 +26,12 @@ def run_game():
             save_new_state_in_json(game_board)
             break
         current_location = fill_first_empty_space_column(game_board,current_step,current_player)
-        if check_win(current_location,current_player,game_board):
+        if current_location and check_win(current_location,current_player,game_board):
             print_victory_message(current_player)
             break
     else:
         print_draw_message()
+
 
 
 if __name__ == '__main__':

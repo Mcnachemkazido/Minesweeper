@@ -1,16 +1,17 @@
 import keyboard
 import time
 from typing import List ,Dict,Any
-from config import PLAYER_ONE ,PLAYER_TWO ,COLOR_PLAYER_ONE,COLOR_PLATER_TWO,EXIT_KEY
+from config import PLAYER_ONE ,PLAYER_TWO ,COLOR_PLAYER_ONE,COLOR_PLAYER_TWO,EXIT_KEY
 
 
 def print_game_board(game_board: List[List[Dict[str,Any]]]) -> None:
     for line in game_board:
+        print('|', end='')
         for column in line:
             if column['type_player'] == PLAYER_ONE:
                 print(COLOR_PLAYER_ONE,end='|')
             elif column['type_player'] == PLAYER_TWO:
-                print(COLOR_PLATER_TWO,end='|')
+                print(COLOR_PLAYER_TWO,end='|')
             else:
                 print('  ',end='|')
         print()
@@ -22,12 +23,12 @@ def accept_choice_from_user_new_or_previous_game() -> str:
 
 
 def announce_player_turn(current_player: int) -> None:
-    player_color = COLOR_PLAYER_ONE if current_player == PLAYER_ONE else COLOR_PLATER_TWO
+    player_color = COLOR_PLAYER_ONE if current_player == PLAYER_ONE else COLOR_PLAYER_TWO
     print(f"Now it's the turn of: {current_player} / {player_color}")
 
 
 def print_victory_message(wining_player: int) -> None:
-    winning_color = COLOR_PLAYER_ONE if wining_player == PLAYER_ONE else COLOR_PLATER_TWO
+    winning_color = COLOR_PLAYER_ONE if wining_player == PLAYER_ONE else COLOR_PLAYER_TWO
     print(f'The winning player is: {wining_player} / {winning_color}, good for you')
 
 
@@ -66,3 +67,6 @@ def process_player_input(pressed_key: str | None) -> int|str|None:
 def get_input_from_player(input_time: int) -> int|None|str:
     key = get_key_with_timer(input_time)
     return process_player_input(key)
+
+
+

@@ -3,14 +3,14 @@ from config import NUMBER_LINES,NUMBER_COLUMNS
 
 
 
-def create_game_board(number_liens: int= NUMBER_LINES,
+def create_game_board(number_lines : int= NUMBER_LINES,
         number_columns: int= NUMBER_COLUMNS) -> List[List[Dict[str,Any]]]:
     game_board = []
-    for line in range(number_liens):
-        line = []
+    for _ in range(number_lines):
+        new_line = []
         for column in range(number_columns):
-            line.append({'is_active':False,'type_player':None})
-        game_board.append(line)
+           new_line.append({'is_active':False,'type_player':None})
+        game_board.append(new_line)
     return game_board
 
 
